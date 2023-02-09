@@ -12,6 +12,8 @@ class Media extends Model
 
     protected $table = "medias";
 
+    public $timestamps = false;
+
     protected $fillable = [
         'regular_price',
         'sale_price',

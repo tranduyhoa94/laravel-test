@@ -12,6 +12,8 @@ class Paid extends Model
 
     protected $table = "paids";
 
+    public $timestamps = false;
+
     protected $fillable = [
         'thumbnail',
         'cover',

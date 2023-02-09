@@ -13,6 +13,8 @@ class Normal extends Model
 
     protected $table = "normals";
 
+    public $timestamps = false;
+
     protected $fillable = [
         'title',
         'content',
